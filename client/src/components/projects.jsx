@@ -8,8 +8,10 @@ const Projects = () => {
       <div id="videos">
       {projectsData.map((project, index) => {
         return <div id="video" key={index}>
-          <iframe src={project.link} width="380" height="262" frameBorder="0"></iframe>
-          {project.description}
+          <a href={project.href} target="_blank">
+          <iframe src={project.link} width="380" height="240" frameBorder="0"></iframe></a>
+          <hr></hr>
+          <p>{project.description}</p>
         </div>
       })}
       </div>
