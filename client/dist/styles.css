@@ -36,3 +36,29 @@ a {
   margin-left: 2%;
   margin-right: 2%;
 }
+
+#projects {
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  flex-direction: column;
+}
+
+iframe {
+  pointer-events: none;
+}
+
+#videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: auto;
+}
+h1{
+  text-align: center;
+}

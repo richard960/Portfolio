@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Nav from './components/navBar.jsx';
 import Side from './components/sideColumn.jsx'
+import Projects from './components/projects.jsx'
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -11,6 +12,7 @@ class App extends React.Component {
     return(<div>
       <Side/>
       <Nav/>
+      <Projects/>
     </div>)
   }
 }
