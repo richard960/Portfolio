@@ -1,18 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Nav from './components/navBar.jsx';
-import Side from './components/sideColumn.jsx'
-import Projects from './components/projects.jsx'
+import Side from './components/sideColumn.jsx';
+import Projects from './components/projects.jsx';
+import Skills from './components/skills.jsx'
 class App extends React.Component {
   constructor(props) {
     super(props);
   }
 
   render() {
-    return(<div>
+    return(<div id="main">
       <Side/>
+      <div>
       <Nav/>
       <Projects/>
+      <Skills/>
+      </div>
     </div>)
   }
 }

@@ -5,6 +5,7 @@ const Projects = () => {
   return(
     <section id="projects">
       <h1>Projects</h1>
+      <hr></hr>
       <div id="videos">
       {projectsData.map((project, index) => {
         return <div id="video" key={index}>
@@ -14,6 +15,7 @@ const Projects = () => {
           <p>{project.description}</p>
         </div>
       })}
+        <img src="./icon.png" width='390'></img>
       </div>
     </section>
   )

@@ -1,0 +1,1 @@
+module.exports = ["JavaScript", "React", "HTML5", "CSS3", "Jquery","Node.js", "Express", "MongoDB", "MySQL", "Sequelize ORM", "Passport.js", "Redis", "RESTful API Development", "Jest", "Mocha", "Chai", "AWS: EC2", "Vim", "Git", "NPM", "Webpack", "Babel", "K6", "Loader.io", "Github"]
