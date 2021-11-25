@@ -15,7 +15,7 @@ const Projects = () => {
           <p>{project.description}</p>
         </div>
       })}
-        <img src="./icon.png" width='390'></img>
+        <img src="./icon.png" width='390' style={{padding: "0px 5px 10px 5px"}}></img>
       </div>
     </section>
   )
