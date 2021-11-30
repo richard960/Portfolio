@@ -1,6 +1,6 @@
 module.exports = [{
   title: 'Leaft',
-  description: 'MERN stack application allowing users to create and select rides to locations they would like to go. I integrated authentication utilizing Passport.js. The routes I created in the back end handled users registeration and login in. Once logged in I set up a session, enabling a user who is authentciated to have access to the proteced routes.',
+  description: 'MERN stack application allowing users to create and select rides to locations they would like to go. I integrated authentication utilizing Passport.js. The routes I created in the back end handled users registeration and login. Once logged in I set up a session, enabling a user who is authentciated to have access to the proteced routes.',
   link: "https://giphy.com/embed/9q82ejfdhkKPrB0D4Y",
   href: "https://youtu.be/xDD9C5PmWu4"
 },
