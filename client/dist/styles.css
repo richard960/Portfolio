@@ -6,6 +6,7 @@
 }
 html {
   min-height: 100%;
+  position: relative;
 }
 body {
   min-height: 100%;
@@ -31,9 +32,12 @@ body {
   /* background-color: #222831; */
   background-color: #202130;
   float: left;
-  /* height: 100vh; */
+  height: 100%;
   margin-right: 2%;
   z-index: 3;
+  position: absolute;
+  top: 0;
+  bottom: 0;
 }
 
 header {
@@ -89,6 +93,9 @@ h1{
   font-family: 'Arvo', serif;
   color: #00ADB5;
 }
+h3 {
+  font-family: 'Arvo', serif;
+}
 
 hr {
   border: 1px solid rgb(193, 185, 185);
@@ -104,6 +111,10 @@ hr {
   font-family: 'Arvo', serif;
   color: rgb(200, 201, 203);
   line-height: 1.5em;
+  margin-bottom: 10%;
+}
+#projectDescrip {
+  font-family: 'Arvo', serif;
 }
 
 #profile {
@@ -121,14 +132,14 @@ hr {
 #skills {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .skill {
   border: 1px solid black;
   box-shadow: 0px 5px 5px black;
   border-radius: 0.5%;
-  background-color: rgb(196, 196, 195);
+  background-color: rgb(211, 212, 220);
   padding: 5px;
   margin: 5px;
 }
@@ -138,4 +149,16 @@ hr {
 
 .skill, #video {
   transition: 250ms
+}
+
+#center {
+  margin-left: 32%;
+}
+
+#social {
+  margin-top: 2%;
+  max-width: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
 }

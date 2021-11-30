@@ -12,7 +12,7 @@ class App extends React.Component {
   render() {
     return(<div id="main">
       <Side/>
-      <div>
+      <div id="center">
       <Nav/>
       <Projects/>
       <Skills/>
