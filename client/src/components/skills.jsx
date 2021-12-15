@@ -6,8 +6,8 @@ const Skills = () => {
       <h1>Skills</h1>
       <hr></hr>
       <div id="skills">
-      {skillsData.map((skill) => {
-        return <div className='skill'>
+      {skillsData.map((skill, index) => {
+        return <div key={index} className='skill'>
               <text>{skill}</text>
           </div>
       })}

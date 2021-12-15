@@ -21,6 +21,7 @@ body {
 }
 
 #Side {
+  overflow: hidden;
   border-right: 1.5px solid black;
   padding: 70px 10px 0px 10px;
   min-width: 30%;
@@ -60,11 +61,10 @@ a {
   flex-direction: column;
   margin-right: 3%;
 }
-
-iframe {
-  pointer-events: none;
+.giphy {
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
-
 #videos {
   display: flex;
   flex-wrap: wrap;

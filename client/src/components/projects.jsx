@@ -11,7 +11,7 @@ const Projects = () => {
         return <div id="video" key={index}>
           <h3>{project.title}</h3>
           <a href={project.href} target="_blank">
-          <iframe src={project.link} width="380" height="240" frameBorder="0"></iframe></a>
+          <img className="giphy" src={project.src} width="380" height="220"></img></a>
           <hr></hr>
           <p id='projectDescrip'>{project.description}</p>
         </div>
