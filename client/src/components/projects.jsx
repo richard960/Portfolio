@@ -8,7 +8,7 @@ const Projects = () => {
       <hr></hr>
       <div id="videos">
       {projectsData.map((project, index) => {
-        return <div id="video" key={index}>
+        return <div className="video" key={index}>
           <h3>{project.title}</h3>
           <a href={project.href} target="_blank">
           <img className="giphy" src={project.src} width="380" height="220"></img></a>
