@@ -199,3 +199,15 @@ hr {
     margin-right: 0;
   }
 }
+
+@media (max-width: 420px) {
+  .video img, #videos img {
+    width: 95vw;
+  }
+  #projectDescrip {
+    overflow-x: scroll;
+  }
+  #profile {
+    width: 50%;
+  }
+}
